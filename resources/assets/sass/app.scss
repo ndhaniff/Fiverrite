@@ -1,0 +1,21 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap/scss/bootstrap.scss";
+
+//Bootstrap edit
+//spacers
+  
+.pt-6 {
+    padding-top: ($spacer *  6) !important;
+  }
+
+@import "navbar";
+//Homepage
+@import "homepage";
+@import 'user';

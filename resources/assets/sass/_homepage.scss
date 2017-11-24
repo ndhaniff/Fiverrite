@@ -1,0 +1,41 @@
+.hero-image{
+    background:url('../img/banner3.jpeg') no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    color:rgb(114, 114, 114);
+    height:60vh;
+    padding-top:12vh;
+}
+
+.hero-banner{
+    h2{
+        font-size:2.7rem;
+    }
+    opacity:0.5;
+}
+
+.heading{
+    font-family: 'Nunito', sans-serif;
+    font-size:1.6rem; 
+    color:$brand-primary;
+    strong{
+        color:$brand-info;
+    }
+}
+.text-secondary{
+    color:$secondary !important;
+}
+//login button
+.fb-login{
+    font-size:2rem;
+    &:hover{
+        color:#3b5999;
+    }
+}
+
+.twitter-login{
+    font-size:2rem;
+    &:hover{
+        color:#55acee;
+    }
+}

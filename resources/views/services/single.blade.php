@@ -1,0 +1,13 @@
+@extends('layouts.app') @section('content')
+<a href="/services/{{$service->id}}">
+    <div class="card-columns pt-3">
+        <div class="card">
+            <img class="card-img-top" src="https://source.unsplash.com/random/150x150" alt="Card image cap">
+            <div class="card-body">
+                <h4 class="card-title">{{$service->title}}</h4>
+                <p class="card-text">{{$service->body}}</p>
+            </div>
+        </div>
+    </div>
+</a>
+@endsection
